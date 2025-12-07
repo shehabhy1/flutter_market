@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 // Configuration
-const PACKAGES_TO_FETCH = 20; // Changed to 20, works for up to 50 easily
+const PACKAGES_TO_FETCH = 20; 
 const OUTPUT_FILE = 'market_data.json';
 
 // Utility: Delay to be polite to the API
@@ -14,59 +14,50 @@ async function fetchTopPackages() {
         let allPackageNames = [];
         let page = 1;
 
-        // 1. Pagination Loop: Keep fetching pages until we have enough names
+        // 1. Pagination Loop: Get the list of names
         while (allPackageNames.length < PACKAGES_TO_FETCH) {
             console.log(`🔎 Scanning Page ${page}...`);
-            
             const searchUrl = `https://pub.dev/api/search?page=${page}&sort=top`;
             const searchResponse = await fetch(searchUrl);
             
-            if (!searchResponse.ok) {
-                console.warn(`⚠️ Warning: Failed to fetch page ${page}`);
-                break;
-            }
+            if (!searchResponse.ok) break;
 
             const searchData = await searchResponse.json();
-            
-            // Collect names from this page
             const namesOnPage = searchData.packages.map(p => p.package);
             
-            if (namesOnPage.length === 0) {
-                console.log("No more packages found.");
-                break;
-            }
+            if (namesOnPage.length === 0) break;
 
             allPackageNames = allPackageNames.concat(namesOnPage);
-            
-            // Move to next page for next loop
             page++;
-            
-            // Polite delay between search pages
             await delay(500);
         }
 
-        // Trim the list to exactly the number we want (e.g., if we fetched 30 but want 20)
         const finalNames = allPackageNames.slice(0, PACKAGES_TO_FETCH);
-        console.log(`📋 Final List (${finalNames.length}): ${finalNames.join(', ')}`);
+        console.log(`📋 Processing details for ${finalNames.length} packages...`);
 
         const detailedPackages = [];
 
-        // 2. Loop through each package to get details (Same as before)
+        // 2. Loop through each package to get details AND METRICS
         for (const name of finalNames) {
-            console.log(`Populating data for: ${name}...`);
+            console.log(`Fetching data for: ${name}...`);
             
             try {
+                // Call 1: Get Basic Info (Version, Description)
                 const pkgUrl = `https://pub.dev/api/packages/${name}`;
                 const pkgResponse = await fetch(pkgUrl);
-                
-                if (!pkgResponse.ok) throw new Error(`HTTP ${pkgResponse.status}`);
-                
                 const pkgData = await pkgResponse.json();
 
+                // Call 2: Get Metrics (Likes, Popularity) << THIS IS THE FIX
+                const metricsUrl = `https://pub.dev/api/packages/${name}/metrics`;
+                const metricsResponse = await fetch(metricsUrl);
+                const metricsData = await metricsResponse.json();
+
+                // Extract Data
                 const latest = pkgData.latest;
-                const likes = pkgData.likes || 0;
+                // Safely access the like count from the ScoreCard
+                const likes = metricsData.score?.likeCount || 0;
                 
-                // 3. Calculate the "Fundamental Price"
+                // Price Formula: (Likes * 0.15) + Base $10
                 const basePrice = (likes * 0.15) + 10;
 
                 detailedPackages.push({
@@ -74,12 +65,12 @@ async function fetchTopPackages() {
                     name: latest.pubspec.name,
                     version: latest.version,
                     desc: latest.pubspec.description || "No description",
-                    likes: likes,
+                    likes: likes, // Now using the correct variable
                     price: parseFloat(basePrice.toFixed(2)),
                     lastUpdated: new Date().toISOString()
                 });
 
-                await delay(200);
+                await delay(300); // Slightly longer delay for double requests
 
             } catch (err) {
                 console.error(`Failed to fetch details for ${name}:`, err.message);
@@ -94,7 +85,7 @@ async function fetchTopPackages() {
         };
 
         fs.writeFileSync(OUTPUT_FILE, JSON.stringify(output, null, 2));
-        console.log(`✅ Success! Saved ${detailedPackages.length} packages to ${OUTPUT_FILE}`);
+        console.log(`✅ Success! Data saved to ${OUTPUT_FILE}`);
 
     } catch (error) {
         console.error("❌ Critical Robot Error:", error);
@@ -102,5 +93,4 @@ async function fetchTopPackages() {
     }
 }
 
-// Run the function
 fetchTopPackages();
