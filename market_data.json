@@ -1,0 +1,96 @@
+{
+  "timestamp": "2025-12-07T00:46:06.076Z",
+  "status": "active",
+  "data": [
+    {
+      "id": "http",
+      "name": "http",
+      "version": "1.6.0",
+      "desc": "A composable, multi-platform, Future-based API for HTTP requests.",
+      "likes": 0,
+      "price": 10,
+      "lastUpdated": "2025-12-07T00:46:03.824Z"
+    },
+    {
+      "id": "uuid",
+      "name": "uuid",
+      "version": "4.5.2",
+      "desc": "RFC4122 (v1, v4, v5, v6, v7, v8) UUID Generator and Parser for Dart\n",
+      "likes": 0,
+      "price": 10,
+      "lastUpdated": "2025-12-07T00:46:04.052Z"
+    },
+    {
+      "id": "crypto",
+      "name": "crypto",
+      "version": "3.0.7",
+      "desc": "Implementations of SHA, MD5, and HMAC cryptographic functions.",
+      "likes": 0,
+      "price": 10,
+      "lastUpdated": "2025-12-07T00:46:04.280Z"
+    },
+    {
+      "id": "path_provider",
+      "name": "path_provider",
+      "version": "2.1.5",
+      "desc": "Flutter plugin for getting commonly used locations on host platform file systems, such as the temp and app data directories.",
+      "likes": 0,
+      "price": 10,
+      "lastUpdated": "2025-12-07T00:46:04.509Z"
+    },
+    {
+      "id": "flutter_svg",
+      "name": "flutter_svg",
+      "version": "2.2.3",
+      "desc": "An SVG rendering and widget library for Flutter, which allows painting and displaying Scalable Vector Graphics 1.1 files.",
+      "likes": 0,
+      "price": 10,
+      "lastUpdated": "2025-12-07T00:46:04.734Z"
+    },
+    {
+      "id": "path",
+      "name": "path",
+      "version": "1.9.1",
+      "desc": "A string-based path manipulation library. All of the path operations you know and love, with solid support for Windows, POSIX (Linux and Mac OS X), and the web.",
+      "likes": 0,
+      "price": 10,
+      "lastUpdated": "2025-12-07T00:46:04.961Z"
+    },
+    {
+      "id": "equatable",
+      "name": "equatable",
+      "version": "2.0.7",
+      "desc": "A Dart package that helps to implement value based equality without needing to explicitly override == and hashCode.",
+      "likes": 0,
+      "price": 10,
+      "lastUpdated": "2025-12-07T00:46:05.194Z"
+    },
+    {
+      "id": "image_picker",
+      "name": "image_picker",
+      "version": "1.2.1",
+      "desc": "Flutter plugin for selecting images from the Android and iOS image library, and taking new pictures with the camera.",
+      "likes": 0,
+      "price": 10,
+      "lastUpdated": "2025-12-07T00:46:05.424Z"
+    },
+    {
+      "id": "cached_network_image",
+      "name": "cached_network_image",
+      "version": "3.4.1",
+      "desc": "Flutter library to load and cache network images. Can also be used with placeholder and error widgets.",
+      "likes": 0,
+      "price": 10,
+      "lastUpdated": "2025-12-07T00:46:05.651Z"
+    },
+    {
+      "id": "dio",
+      "name": "dio",
+      "version": "5.9.0",
+      "desc": "A powerful HTTP networking package,\nsupports Interceptors,\nAborting and canceling a request,\nCustom adapters, Transformers, etc.\n",
+      "likes": 0,
+      "price": 10,
+      "lastUpdated": "2025-12-07T00:46:05.875Z"
+    }
+  ]
+}
