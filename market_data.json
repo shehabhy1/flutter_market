@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-06T07:30:34.200Z",
+  "timestamp": "2026-01-06T08:38:35.165Z",
   "status": "active",
   "data": [
     {
@@ -9,7 +9,7 @@
       "desc": "A composable, multi-platform, Future-based API for HTTP requests.",
       "likes": 8389,
       "price": 1268.35,
-      "lastUpdated": "2026-01-06T07:30:25.988Z"
+      "lastUpdated": "2026-01-06T08:38:27.115Z"
     },
     {
       "id": "uuid",
@@ -18,7 +18,7 @@
       "desc": "RFC4122 (v1, v4, v5, v6, v7, v8) UUID Generator and Parser for Dart\n",
       "likes": 2662,
       "price": 409.3,
-      "lastUpdated": "2026-01-06T07:30:26.393Z"
+      "lastUpdated": "2026-01-06T08:38:27.544Z"
     },
     {
       "id": "path_provider",
@@ -27,7 +27,7 @@
       "desc": "Flutter plugin for getting commonly used locations on host platform file systems, such as the temp and app data directories.",
       "likes": 5471,
       "price": 830.65,
-      "lastUpdated": "2026-01-06T07:30:26.795Z"
+      "lastUpdated": "2026-01-06T08:38:27.925Z"
     },
     {
       "id": "crypto",
@@ -36,7 +36,7 @@
       "desc": "Implementations of SHA, MD5, and HMAC cryptographic functions.",
       "likes": 1838,
       "price": 285.7,
-      "lastUpdated": "2026-01-06T07:30:27.218Z"
+      "lastUpdated": "2026-01-06T08:38:28.343Z"
     },
     {
       "id": "flutter_svg",
@@ -45,7 +45,7 @@
       "desc": "An SVG rendering and widget library for Flutter, which allows painting and displaying Scalable Vector Graphics 1.1 files.",
       "likes": 5808,
       "price": 881.2,
-      "lastUpdated": "2026-01-06T07:30:27.657Z"
+      "lastUpdated": "2026-01-06T08:38:28.748Z"
     },
     {
       "id": "dio",
@@ -54,7 +54,7 @@
       "desc": "A powerful HTTP networking package,\nsupports Interceptors,\nAborting and canceling a request,\nCustom adapters, Transformers, etc.\n",
       "likes": 8210,
       "price": 1241.5,
-      "lastUpdated": "2026-01-06T07:30:28.057Z"
+      "lastUpdated": "2026-01-06T08:38:29.133Z"
     },
     {
       "id": "image_picker",
@@ -63,7 +63,7 @@
       "desc": "Flutter plugin for selecting images from the Android and iOS image library, and taking new pictures with the camera.",
       "likes": 7657,
       "price": 1158.55,
-      "lastUpdated": "2026-01-06T07:30:28.475Z"
+      "lastUpdated": "2026-01-06T08:38:29.548Z"
     },
     {
       "id": "cached_network_image",
@@ -72,7 +72,7 @@
       "desc": "Flutter library to load and cache network images. Can also be used with placeholder and error widgets.",
       "likes": 6865,
       "price": 1039.75,
-      "lastUpdated": "2026-01-06T07:30:28.873Z"
+      "lastUpdated": "2026-01-06T08:38:29.978Z"
     },
     {
       "id": "firebase_core",
@@ -81,7 +81,7 @@
       "desc": "Flutter plugin for Firebase Core, enabling connecting to multiple Firebase apps.",
       "likes": 3999,
       "price": 609.85,
-      "lastUpdated": "2026-01-06T07:30:29.294Z"
+      "lastUpdated": "2026-01-06T08:38:30.381Z"
     },
     {
       "id": "equatable",
@@ -90,7 +90,7 @@
       "desc": "A Dart package that helps to implement value based equality without needing to explicitly override == and hashCode.",
       "likes": 3574,
       "price": 546.1,
-      "lastUpdated": "2026-01-06T07:30:29.707Z"
+      "lastUpdated": "2026-01-06T08:38:30.800Z"
     },
     {
       "id": "path",
@@ -99,7 +99,7 @@
       "desc": "A string-based path manipulation library. All of the path operations you know and love, with solid support for Windows, POSIX (Linux and Mac OS X), and the web.",
       "likes": 1699,
       "price": 264.85,
-      "lastUpdated": "2026-01-06T07:30:30.119Z"
+      "lastUpdated": "2026-01-06T08:38:31.203Z"
     },
     {
       "id": "sqflite",
@@ -108,16 +108,16 @@
       "desc": "Flutter plugin for SQLite, a self-contained, high-reliability, embedded, SQL database engine.",
       "likes": 5488,
       "price": 833.2,
-      "lastUpdated": "2026-01-06T07:30:30.535Z"
+      "lastUpdated": "2026-01-06T08:38:31.607Z"
     },
     {
       "id": "permission_handler",
       "name": "permission_handler",
       "version": "12.0.1",
       "desc": "Permission plugin for Flutter. This plugin provides a cross-platform (iOS, Android) API to request and check permissions.",
-      "likes": 5934,
-      "price": 900.1,
-      "lastUpdated": "2026-01-06T07:30:30.994Z"
+      "likes": 5935,
+      "price": 900.25,
+      "lastUpdated": "2026-01-06T08:38:32.003Z"
     },
     {
       "id": "file_picker",
@@ -126,7 +126,7 @@
       "desc": "A package that allows you to use a native file explorer to pick single or multiple absolute file paths, with extension filtering support.",
       "likes": 4844,
       "price": 736.6,
-      "lastUpdated": "2026-01-06T07:30:31.418Z"
+      "lastUpdated": "2026-01-06T08:38:32.413Z"
     },
     {
       "id": "json_serializable",
@@ -135,7 +135,7 @@
       "desc": "Automatically generate code for converting to and from JSON by annotating Dart classes.",
       "likes": 3897,
       "price": 594.55,
-      "lastUpdated": "2026-01-06T07:30:31.834Z"
+      "lastUpdated": "2026-01-06T08:38:32.812Z"
     },
     {
       "id": "package_info_plus",
@@ -144,7 +144,7 @@
       "desc": "Flutter plugin for querying information about the application package, such as CFBundleVersion on iOS or versionCode on Android.",
       "likes": 2739,
       "price": 420.85,
-      "lastUpdated": "2026-01-06T07:30:32.246Z"
+      "lastUpdated": "2026-01-06T08:38:33.208Z"
     },
     {
       "id": "connectivity_plus",
@@ -153,7 +153,7 @@
       "desc": "Flutter plugin for discovering the state of the network (WiFi & mobile/cellular) connectivity on Android and iOS.",
       "likes": 3977,
       "price": 606.55,
-      "lastUpdated": "2026-01-06T07:30:32.661Z"
+      "lastUpdated": "2026-01-06T08:38:33.640Z"
     },
     {
       "id": "flutter_secure_storage",
@@ -162,7 +162,7 @@
       "desc": "A Flutter plugin for securely storing sensitive data using encrypted storage.",
       "likes": 4362,
       "price": 664.3,
-      "lastUpdated": "2026-01-06T07:30:33.056Z"
+      "lastUpdated": "2026-01-06T08:38:34.045Z"
     },
     {
       "id": "flutter_bloc",
@@ -171,16 +171,16 @@
       "desc": "Flutter widgets that make it easy to implement the BLoC (Business Logic Component) design pattern. Built to be used with the bloc state management package.",
       "likes": 7948,
       "price": 1202.2,
-      "lastUpdated": "2026-01-06T07:30:33.475Z"
+      "lastUpdated": "2026-01-06T08:38:34.462Z"
     },
     {
       "id": "share_plus",
       "name": "share_plus",
       "version": "12.0.1",
       "desc": "Flutter plugin for sharing content via the platform share UI, using the ACTION_SEND intent on Android and UIActivityViewController on iOS.",
-      "likes": 3902,
-      "price": 595.3,
-      "lastUpdated": "2026-01-06T07:30:33.900Z"
+      "likes": 3903,
+      "price": 595.45,
+      "lastUpdated": "2026-01-06T08:38:34.865Z"
     }
   ]
 }
