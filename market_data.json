@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-19T08:53:06.467Z",
+  "timestamp": "2026-02-19T09:55:04.087Z",
   "status": "active",
   "data": [
     {
@@ -9,7 +9,7 @@
       "desc": "A composable, multi-platform, Future-based API for HTTP requests.",
       "likes": 8408,
       "price": 1271.2,
-      "lastUpdated": "2026-02-19T08:52:58.271Z"
+      "lastUpdated": "2026-02-19T09:54:55.093Z"
     },
     {
       "id": "uuid",
@@ -18,7 +18,7 @@
       "desc": "RFC4122 (v1, v4, v5, v6, v7, v8) UUID Generator and Parser for Dart\n",
       "likes": 2682,
       "price": 412.3,
-      "lastUpdated": "2026-02-19T08:52:58.668Z"
+      "lastUpdated": "2026-02-19T09:54:55.526Z"
     },
     {
       "id": "crypto",
@@ -27,16 +27,16 @@
       "desc": "Implementations of SHA, MD5, and HMAC cryptographic functions.",
       "likes": 1853,
       "price": 287.95,
-      "lastUpdated": "2026-02-19T08:52:59.062Z"
+      "lastUpdated": "2026-02-19T09:54:55.938Z"
     },
     {
       "id": "flutter_svg",
       "name": "flutter_svg",
       "version": "2.2.3",
       "desc": "An SVG rendering and widget library for Flutter, which allows painting and displaying Scalable Vector Graphics 1.1 files.",
-      "likes": 5838,
-      "price": 885.7,
-      "lastUpdated": "2026-02-19T08:52:59.489Z"
+      "likes": 5839,
+      "price": 885.85,
+      "lastUpdated": "2026-02-19T09:54:56.382Z"
     },
     {
       "id": "dio",
@@ -45,7 +45,7 @@
       "desc": "A powerful HTTP networking package,\nsupports Interceptors,\nAborting and canceling a request,\nCustom adapters, Transformers, etc.\n",
       "likes": 8236,
       "price": 1245.4,
-      "lastUpdated": "2026-02-19T08:52:59.884Z"
+      "lastUpdated": "2026-02-19T09:54:56.810Z"
     },
     {
       "id": "equatable",
@@ -54,7 +54,7 @@
       "desc": "A Dart package that helps to implement value based equality without needing to explicitly override == and hashCode.",
       "likes": 3595,
       "price": 549.25,
-      "lastUpdated": "2026-02-19T08:53:00.390Z"
+      "lastUpdated": "2026-02-19T09:54:57.276Z"
     },
     {
       "id": "google_fonts",
@@ -63,7 +63,7 @@
       "desc": "A Flutter package to use fonts from fonts.google.com. Supports HTTP fetching, caching, and asset bundling.",
       "likes": 6399,
       "price": 969.85,
-      "lastUpdated": "2026-02-19T08:53:00.782Z"
+      "lastUpdated": "2026-02-19T09:54:57.700Z"
     },
     {
       "id": "path",
@@ -72,7 +72,7 @@
       "desc": "A string-based path manipulation library. All of the path operations you know and love, with solid support for Windows, POSIX (Linux and Mac OS X), and the web.",
       "likes": 1706,
       "price": 265.9,
-      "lastUpdated": "2026-02-19T08:53:01.171Z"
+      "lastUpdated": "2026-02-19T09:54:58.147Z"
     },
     {
       "id": "firebase_core",
@@ -81,7 +81,7 @@
       "desc": "Flutter plugin for Firebase Core, enabling connecting to multiple Firebase apps.",
       "likes": 4021,
       "price": 613.15,
-      "lastUpdated": "2026-02-19T08:53:01.571Z"
+      "lastUpdated": "2026-02-19T09:54:58.564Z"
     },
     {
       "id": "flutter_launcher_icons",
@@ -90,7 +90,7 @@
       "desc": "A package which simplifies the task of updating your Flutter app's launcher icon.",
       "likes": 7924,
       "price": 1198.6,
-      "lastUpdated": "2026-02-19T08:53:01.956Z"
+      "lastUpdated": "2026-02-19T09:54:58.993Z"
     },
     {
       "id": "connectivity_plus",
@@ -99,7 +99,7 @@
       "desc": "Flutter plugin for discovering the state of the network (WiFi & mobile/cellular) connectivity on Android and iOS.",
       "likes": 4005,
       "price": 610.75,
-      "lastUpdated": "2026-02-19T08:53:02.364Z"
+      "lastUpdated": "2026-02-19T09:54:59.461Z"
     },
     {
       "id": "flutter_bloc",
@@ -108,7 +108,7 @@
       "desc": "Flutter widgets that make it easy to implement the BLoC (Business Logic Component) design pattern. Built to be used with the bloc state management package.",
       "likes": 7984,
       "price": 1207.6,
-      "lastUpdated": "2026-02-19T08:53:02.769Z"
+      "lastUpdated": "2026-02-19T09:54:59.888Z"
     },
     {
       "id": "flutter_lints",
@@ -117,7 +117,7 @@
       "desc": "Recommended lints for Flutter apps, packages, and plugins to encourage good coding practices.",
       "likes": 1323,
       "price": 208.45,
-      "lastUpdated": "2026-02-19T08:53:03.211Z"
+      "lastUpdated": "2026-02-19T09:55:00.327Z"
     },
     {
       "id": "firebase_messaging",
@@ -126,7 +126,7 @@
       "desc": "Flutter plugin for Firebase Cloud Messaging, a cross-platform messaging solution that lets you reliably deliver messages on Android and iOS.",
       "likes": 3897,
       "price": 594.55,
-      "lastUpdated": "2026-02-19T08:53:03.619Z"
+      "lastUpdated": "2026-02-19T09:55:00.766Z"
     },
     {
       "id": "lottie",
@@ -135,7 +135,7 @@
       "desc": "Render After Effects animations natively on Flutter. This package is a pure Dart implementation of a Lottie player.",
       "likes": 4519,
       "price": 687.85,
-      "lastUpdated": "2026-02-19T08:53:04.045Z"
+      "lastUpdated": "2026-02-19T09:55:01.312Z"
     },
     {
       "id": "riverpod",
@@ -144,7 +144,7 @@
       "desc": "A reactive caching and data-binding framework. Riverpod makes working with asynchronous code a breeze.\n",
       "likes": 3922,
       "price": 598.3,
-      "lastUpdated": "2026-02-19T08:53:04.461Z"
+      "lastUpdated": "2026-02-19T09:55:01.820Z"
     },
     {
       "id": "shimmer",
@@ -153,7 +153,7 @@
       "desc": "A package provides an easy way to add shimmer effect in Flutter project",
       "likes": 5389,
       "price": 818.35,
-      "lastUpdated": "2026-02-19T08:53:04.876Z"
+      "lastUpdated": "2026-02-19T09:55:02.284Z"
     },
     {
       "id": "flutter_native_splash",
@@ -162,7 +162,7 @@
       "desc": "Customize Flutter's default white native splash screen with background color and splash image. Supports dark mode, full screen, and more.",
       "likes": 9590,
       "price": 1448.5,
-      "lastUpdated": "2026-02-19T08:53:05.260Z"
+      "lastUpdated": "2026-02-19T09:55:02.712Z"
     },
     {
       "id": "animations",
@@ -171,7 +171,7 @@
       "desc": "Fancy pre-built animations that can easily be integrated into any Flutter application.",
       "likes": 6790,
       "price": 1028.5,
-      "lastUpdated": "2026-02-19T08:53:05.738Z"
+      "lastUpdated": "2026-02-19T09:55:03.298Z"
     },
     {
       "id": "bloc",
@@ -180,7 +180,7 @@
       "desc": "A predictable state management library that helps implement the BLoC (Business Logic Component) design pattern.",
       "likes": 3176,
       "price": 486.4,
-      "lastUpdated": "2026-02-19T08:53:06.166Z"
+      "lastUpdated": "2026-02-19T09:55:03.786Z"
     }
   ]
 }
